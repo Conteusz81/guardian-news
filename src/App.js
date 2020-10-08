@@ -6,6 +6,7 @@ import NewsFeed from "./components/organisms/NewsFeed";
 import NavBar from "./components/organisms/NavBar";
 import { routes } from "./routes/routes";
 import { pathNameSlice } from "./utils/parsers";
+import ForLaterList from "./components/organisms/ForLaterList";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                       />
                   </Switch>
               </MainTemplate>
+              <ForLaterList />
           </div>
       </BrowserRouter>
   );
