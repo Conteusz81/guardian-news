@@ -10,7 +10,7 @@ import { pathNameSlice } from "./utils/parsers";
 function App() {
   return (
       <BrowserRouter>
-          <div className="h-screen grid main-template text-gray-600 font-body md:grid-cols-5">
+          <div className="h-screen grid main-template text-gray-600 font-body md:grid-cols-8">
               <NavBar />
               <MainTemplate>
                   <Switch>

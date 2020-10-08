@@ -19,7 +19,10 @@ const NavBar = () => {
                     <h1 className="font-bold uppercase p-4 border-b border-gray-100">
                         <NavLink to={routes.home}>Guardian News</NavLink>
                     </h1>
-                    <div className="px-4 cursor-pointer md:hidden" onClick={() => setMenuVisibility(prevState => !prevState)}>
+                    <div
+                        className="px-4 cursor-pointer md:hidden"
+                        onClick={() => setMenuVisibility(prevState => !prevState)}
+                    >
                         <FiMenu size={30} />
                     </div>
                 </div>
