@@ -24,8 +24,10 @@ const NewsFeed = ({ pathname }) => {
                     {
                         news && news.map(article => <NewsCard
                                 key={article.id}
+                                id={article.id}
                                 title={article.webTitle}
                                 externalUrl={article.webUrl}
+                                section={pathname}
                             />)
                     }
                 </div>
