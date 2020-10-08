@@ -4,7 +4,7 @@ import ForLaterCard from "../molecules/ForLaterCard";
 
 const ForLaterList = () => {
     const { store } = useForLaterList();
-    console.log(store);
+
     return (
         <div className="col-span-1 p-6 md:col-span-2">
             <h1 className="mb-4 text-lg text-center font-bold border-b border-gray-400">For later</h1>
