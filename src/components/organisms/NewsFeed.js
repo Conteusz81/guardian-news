@@ -65,6 +65,7 @@ const NewsFeed = ({ pathname }) => {
                                 title={article.webTitle}
                                 externalUrl={article.webUrl}
                                 section={pathname}
+                                createdAt={article.webPublicationDate}
                             />)
                     }
                 </div>
